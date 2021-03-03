@@ -1,7 +1,4 @@
-export class Greeter {
-  constructor(private name: string) {}
-
-  getMessage() {
-      return `Hello ${this.name}`;
-  }
+export const reverse = (s: string): string => {
+  console.log([...s].reverse())
+  return [...s].reverse().join('')
 }

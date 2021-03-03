@@ -1,5 +1,5 @@
-import { Greeter } from './string';
+import { reverse } from './string'
 
-test('test', () => {
-    expect(new Greeter('Taro').getMessage()).toBe('Hello Taro');
-});
+test('reverse', () => {
+	expect(reverse('abc')).toBe('cba')
+})
